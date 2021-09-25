@@ -1,15 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
+  <link rel="icon" type="image/png" href="Images/Local-Red_Player_Logo.png"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LOCAL+Red Video Plyr+ Pop-Up Playlist</title>
+    <title>LOCAL-Red Video Plyr v1.2</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <div class="container">
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
@@ -39,7 +40,7 @@
   
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LOCAL+Red Video Plyr+ Pop-Up Playlist</title>
+    <title>Local Videos Red Plyr v1.2</title>
    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/demo.css" />
    </head>
@@ -68,17 +69,35 @@
   
   li{
   margin-top: 10px;
-  border:1px solid white;
-  background:skyblue;
+  border:1px solid black;
+  background:#333333;
+  color:silver;
   float: up;
   cursor: pointer;
   scroll-behavior: auto;
+  padding: 6px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 5px;
   }
   
   li:hover {
   cursor: pointer; 
-  background-color: #35FFFF;
   scroll: auto;
+  
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  /*
+  letter-spacing: 1%;
+  */
+  color: white;
+  background-color: black;
+  border:3px solid orange;
   }
   
   li:module {
@@ -87,18 +106,6 @@
   
   li:first-child {
   margin-top:0;
-  }
-  
-  li:hover {
-  box-sizing: border-box;
-  width: 100%;
-  padding: 8px;
-  border-top: 0px;
-  border-left: 0px;
-  border-right: 0px;
-  letter-spacing: 1%;
-  border:2px solid black;
-  color: black;
   }
   
   * {
@@ -259,5 +266,6 @@ Notification.requestPermission().then(function(getperm)
 }
 
 </style>
-</body>
+<p></p>
+ </body>
 </html>
